@@ -1,16 +1,16 @@
 class Fluxterm < Formula
   desc "GPU-accelerated macOS terminal emulator built with Swift and Metal"
   homepage "https://github.com/faizal97/flux-term"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/faizal97/flux-term/releases/download/v0.1.1/FluxTerm-macos-arm64.zip"
-      sha256 "03bad4e5e83571da65c36e36097ddc670eb8b417482cc9bb22f1f70bd85d67cb"
+      url "https://github.com/faizal97/flux-term/releases/download/v0.1.2/FluxTerm-macos-arm64.zip"
+      sha256 "f76c5c13503ec28d4503c83e745fa5a65f2dc072fd78118c6c3cae4363d9189e"
     else
-      url "https://github.com/faizal97/flux-term/releases/download/v0.1.1/FluxTerm-macos-x86_64.zip"
-      sha256 "6b48d01ff692104ee1b6646e96d13bdf627a6c0cedffcaa1b9608a6ce47f137b"
+      url "https://github.com/faizal97/flux-term/releases/download/v0.1.2/FluxTerm-macos-x86_64.zip"
+      sha256 "8c82910d2a660168bc61d56444d483034a8dc29207bf433d7c0d4b5e2097c343"
     end
   end
 
