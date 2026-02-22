@@ -1,6 +1,6 @@
 cask "fluxterm" do
-  version "0.1.0"
-  sha256 "3434ae7a4ac9fda55a1962366e716f487f567cd6b792d8046f7567384f028cc0"
+  version "0.1.1"
+  sha256 "cad4bf5834c4e19e9d1b13cba536163b01aa39a8446eec7b77717cc27e39fa6f"
 
   url "https://github.com/faizal97/flux-term/releases/download/v#{version}/FluxTerm.app.zip"
   name "FluxTerm"
